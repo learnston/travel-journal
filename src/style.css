@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: 'Inter', sans-serif;
+  color: #2b283a;
+}
+
+.header {
+  background-color: #f55a5a;
+  font-size: 15px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2px;
+  padding: 10px 0;
+  margin-bottom: 40px;
+  /* letter-spacing: 1.5px; */
+}
+
+.content {
+  padding: 0 40px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2em;
+}
+
+.post {
+  display: flex;
+  gap: 1em;
+}
+
+.photo {
+  width: 125px;
+  height: 168px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.text {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  justify-content: space-between;
+  padding-bottom: 10px;
+  padding-top: 10px;
+}
+
+/* .text > * + * {
+  margin-top: 7px;
+} */
+
+.location-data {
+  display: flex;
+  /* align-items: center; */
+  /* line-height: 40px; */
+  gap: 5px;
+  /* position: relative; */
+  font-size: 11.25px;
+}
+
+.location-icon {
+  position: relative;
+  /* bottom: 4px; */
+  bottom: 7px;
+}
+
+.location {
+  text-transform: uppercase;
+}
+
+.gmaps-link {
+  color: #918e9b;
+}
+
+.title {
+  font-size: 25px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.dates {
+  font-size: 11.25px;
+  font-weight: 600;
+}
+
+.description {
+  margin-top: 10px;
+}
